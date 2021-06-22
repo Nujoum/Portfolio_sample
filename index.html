@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Nujoum</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" href="#projects">Projects</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contact-me">Contact Me</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        
+        <main class="container mt-3">
+            <!--Home-->
+            <section id="home" class="d-flex justify-content-md-evenly align-items-center flex-column-reverse gap-5 flex-md-row">
+                <div class="d-flex align-items-start flex-column"> 
+                    <h1>Hi</h1>
+                    <h2>I'm Nujoum Unus</h2>
+                    <p>Web Developer</p>
+                    <button type="button" class="btn btn-primary">Hire Me</button>
+                </div>
+                <div class="d-md-none w-25 h-25">
+                    <img src="me.jpg" alt="" class="w-100 h-100 rounded-circle shadow">
+                </div>
+                <div class="d-none d-md-block w-50 h-50">
+                    <img src="me.jpg" alt="" class="w-100 h-100 rounded-circle shadow">
+                </div>
+            </section>
+            <!--My Skills-->
+            <section id="skills" class="mt-5 p-4 rounded">
+                <h1 class="text-primary text-center">My Skills</h1>
+                <div class="mt-4 d-flex d-md-none justify-content-evenly">
+                    <div>
+                        <i class="fab fa-html5 fa-3x" style= "color:#e34c26"></i>
+                        <p class="text-center">HTML</p> 
+                    </div>
+                    <div>
+                        <i class="fab fa-css3-alt fa-3x" style="color: #264de4"></i>
+                        <p class="text-center">CSS</p>
+                    </div>
+                    <div>
+                        <i class="fab fa-bootstrap fa-7x" style="color:	#563d7c"></i>
+                        <p class="text-center">BOOTSTRAP</p>
+                    </div>
+                </div>
+                <div class="mt-4 d-none d-md-flex justify-content-evenly">
+                    <div>
+                        <i class="fab fa-html5 fa-7x" style= "color:#e34c26"></i>
+                        <p class="text-center">HTML</p> 
+                    </div>
+                    <div>
+                        <i class="fab fa-css3-alt fa-7x" style="color: #264de4"></i>
+                        <p class="text-center">CSS</p>
+                    </div>
+                    <div>
+                        <i class="fab fa-bootstrap fa-7x" style="color:	#563d7c"></i>
+                        <p class="text-center">BOOTSTRAP</p>
+                    </div>
+                </div>
+            </section>
+            <!--My Projects-->
+            <section id="projects" class="p-4">
+                <h1 class="text-primary text-center">My Projects</h1>
+                <div class="row justify-content-center gap-3 mt-4 mb-3">
+                    <div class="col-sm col-md-4">
+                        <!--Card 1-->
+                        <div class="card" style="width: 18rem;">
+                            <img src="login.JPG" class="card-img-top" alt="Login Page Design">
+                            <div class="card-body">
+                                <h5 class="card-title">Login Page Demo</h5>
+                                <p class="card-text">My first webpage made using HTML and CSS</p>
+                                <a href="https://github.com/Nujoum/Login_page.git" class="btn btn-primary">View Source  <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm col-md-4">
+                        <!--Card 2-->
+                        <div class="card" style="width: 18rem;">
+                            <img src="bootstrap_demo.JPG" class="card-img-top" alt="Demo website using bootstrap">
+                            <div class="card-body">
+                                <h5 class="card-title">Bootstrap Demo</h5>
+                                <p class="card-text">A demo page using various Bootstrap elements</p>
+                                <a href="https://github.com/Nujoum/Consilio_task2.git" class="btn btn-primary">View Source  <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--More coming soon-->
+                    <!--div class="">
+                        <i class="fas fa-spinner fa-10x"></i>
+                        <p class="gap-9">More coming soon!</p>
+                    </div-->   
+                </div>
+                
+            </section>
+            <!--Contact Me-->
+            <section id="contact-me"class="mt-4 py-4">
+                <h1>Contact Me</h1>
+                <div class="row">
+                    <div class="col-sm col-md-8">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Leave a message for me" required></textarea>
+                              </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div> 
+                </div>
+                
+            </section> 
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </body>
+</html>
